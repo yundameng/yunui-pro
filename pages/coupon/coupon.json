@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "自定义选项卡组件",
+  "usingComponents": {
+    "y-coupon":"/components/coupon/coupon"
+  }
+}

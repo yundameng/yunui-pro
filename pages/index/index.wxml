@@ -1,0 +1,34 @@
+<y-cell-group title="功能组件" border card custom-class="border-box">
+  <y-cell title="Date" value="高自定义程度、可精确到分、秒" url="/pages/notices/notices" />
+  <y-cell title="Coupon" value="左右布局，可自定义文字" url="/pages/coupon/coupon" />
+  <y-cell title="Calender" value="两种模式，心情签到" url="/pages/calendar/calendar" />
+  <!-- <y-cell title="Model" value="和原生一致的弹窗，自定义布局" url="/pages/tdetail/tdetail" /> -->
+  <y-cell title="Button" value="高自定义，支持倒计时" url="/pages/ybutton/ybutton" />
+  <y-cell title="Message" value="消息通知" url="/pages/message/index" />
+  <y-cell title="RainSnow" value="雨雪插件，直接调用！" url="/pages/RainSnow/rainsnow" />
+  <y-cell title="Notice" value="广告滚动组件" url="/pages/notice/index" />
+  <y-cell title="Popup" value="底部/侧边滑出弹层，高度自适应" url="/pages/popup/index" />
+  <y-cell title="图片排序" value="新增“增强排序”组件了！" yTColor="red" url="/pages/yImgShow/picture" />
+  <y-cell title="input" value="@功能！可结合popup组件使用" yTColor="red" url="/pages/atinput/index" />
+  <y-cell title="LongList" value="开发中..." url="/pages/ylistscroll/listscroll" />
+</y-cell-group>
+<y-cell-group title="布局组件" border card custom-class="border-box">
+  <y-cell title="侧边栏字母导航" url="/pages/alphabet/alphabet" />
+  <y-cell title="自定义search搜索" value="动画过渡，自定义按钮" url="/pages/search/search" />
+  <y-cell title="自定义卡片" value="内置时间，完美“空间动态”效果" url="/pages/card/card" />
+  <y-cell title="联动滑动" value="上下联动" url="/pages/liandong/ld" />
+</y-cell-group>
+
+
+<view class="loaded">
+  <view class="typing">更多内容，敬请期待 ...</view>
+</view>
+
+<view class="navigator">
+  <text>项目开源地址：</text>
+  <text class="url" bindlongtap="cliptwo">{{url_two}}</text>
+
+  <text>本小程序版本只展示其中部分应用方式</text>
+  <text>有任何疑问欢迎提issue！欢迎star！</text>
+  <text>注：本页面由组件cell及cell-group实现</text>
+</view>

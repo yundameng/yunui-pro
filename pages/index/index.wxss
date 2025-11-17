@@ -1,0 +1,59 @@
+
+.border-box {
+  margin: 32rpx;
+  box-shadow: 0 0 5px 1px #ccc;
+  border-radius: 12rpx;
+  background: #fff;
+}
+
+.loaded{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96%;
+  height: 180rpx;
+  margin-top: 7rpx;
+  margin-left: 8rpx;
+  overflow: hidden;
+}
+
+.loaded .typing{
+  display: inline-block;
+  width: 17.5em; 
+  height: 1.25em;
+  border-right: 1px solid transparent;
+  animation: typing 3.5s steps(28, end), blink-caret .75s step-end infinite;
+  font-family: Consolas, Monaco;
+  word-break: break-all;
+  overflow: hidden;
+  background-color: transparent;
+  letter-spacing: 14rpx;
+}
+
+/* 打印效果 */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 18.5em; }
+}
+/* 光标闪啊闪 */
+@keyframes blink-caret {
+  from, to { box-shadow: 1px 0 0 0 transparent; }
+  50% { box-shadow: 1px 0 0 0; }
+}
+
+.navigator{
+  width: 96%;
+  height: 400rpx;
+  margin: 20rpx auto;
+  background-color: rgba(0,0,0,.09);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  letter-spacing: -0.01rpx;
+}
+.navigator .url{
+  padding: 6rpx 0;
+}

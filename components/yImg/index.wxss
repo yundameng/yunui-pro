@@ -1,0 +1,71 @@
+@import "icon.wxss";
+  
+/* 图片样式 */
+.image-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20rpx;
+}
+  
+.image-wrap {
+    width: 220rpx;
+    height: 220rpx;
+    margin-right: 13rpx;
+    margin-bottom: 13rpx;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-check {
+    overflow: visible;
+}
+.image-check .image {
+    transform: scale(1.05);
+}
+
+.image-bg {
+    background-color: rgba(0,0,0, .01);
+}
+
+.image-flex {
+    flex: 1 0 auto;
+}
+  
+.image {
+    width: 100%;
+    height: 100%;
+}
+  
+.icon-delete {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 29rpx;
+    height: 29rpx;
+    background-color: #000;
+    opacity: 0.6;
+    color: #fff;
+    text-align: center;
+    line-height: 28rpx;
+    font-size: 22rpx;
+    font-weight: bolder;
+    padding: 2rpx;
+    border-radius: 0 0 0 11rpx;
+}
+  
+.selectphoto {
+    width: 218rpx;
+    height: 218rpx;
+    border: 2rpx dashed #cbd1d7;
+    position: relative;
+}
+  
+.icon-jiashang {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #cbd1d7;
+    font-size: 60rpx;
+}
+  
