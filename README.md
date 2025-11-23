@@ -1,7 +1,7 @@
 # 一定要看的！！！
 # yunUI-Pro（微信小程序自定义功能组件库）
 ### 来源于[https://github.com/1314mxc/yunUI](https://github.com/1314mxc/yunUI)，两个项目为同一个作者（我！），那个账号的老电脑被我放到老家了家里人在用，设置了2FA新电脑没法登录（哭）。后续维护和更新转移到这个账号中
-##### 致力于“微信小程序”原生组件扩展开发 —— 功能更强大，使用更方便。
+#### 致力于“微信小程序”原生组件扩展开发 —— 功能更强大，使用更方便。
 
 ### npm地址
 
@@ -13,7 +13,7 @@
 ```
 npm install yun-ui-micro
 ```
-
+安装后，项目的 node_modules 文件下将会生成该组件库，在微信开发者工具中选择“工具->构建 npm”，将会在 miniprogram_npm 文件夹下生成可以被小程序中使用的组件包。
 在项目全局的 app.json 或者页面与组件的 .json 中，按需求引入组件即可使用，示例如下：
 ```
 "usingComponents": {
@@ -21,11 +21,11 @@ npm install yun-ui-micro
 }
 ```
 
-### clone使用(推荐！)
+### clone使用
 直接从github中下载全部或单个组件文件，然后二次修改并使用。
 
 
-## 体验
+## 小程序中体验组件效果
 
 ![wx-yunUI](https://img-blog.csdnimg.cn/20201024121550490.png#pic_center)
 
@@ -78,8 +78,7 @@ npm install yun-ui-micro
  }
 ```
 
-js插件使用：
-
+js插件使用：（针对雨雪插件）只使用js文件 —— 手动下载utils目录下的指定文件后按照如下方式使用
 ```
 import xxx from '../../utils/effect';   // 路径需自己改下
 import {Time} from '../../utils/date_time';   // 路径需自己改下

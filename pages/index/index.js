@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    url_two:'https://github.com/1314mxc/yunUI'
+    url_two:'https://github.com/yundameng/yunui-pro'
   },
 
   cliptwo(){
